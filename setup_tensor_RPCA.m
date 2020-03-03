@@ -41,7 +41,13 @@ end
 
 if strcmp(str,'y')
     try 
-%         system('cd TensorTopicModeling/dependency/');
+        % make empty directories to populate with data
+        mkdir TensorTopicModeling/dependency/
+        mkdir TensorTopicModeling/datasets
+        mkdir TensorTopicModeling/datasets/news
+        mkdir TensorTopicModeling/datasets/news/result_ALS/
+        mkdir TensorTopicModeling/datasets/news/result_RPCA/
+        
         cd TensorTopicModeling/dependency/
         system('git clone https://github.com/FurongHuang/TensorDecomposition4TopicModeling.git');
         cd TensorDecomposition4TopicModeling/TopicModelingSingleNodeALS/TopicModel/TopicModel/
