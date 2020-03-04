@@ -1,7 +1,7 @@
 %% set paths
 addpath(genpath('.'))
 
-%% downlaod toolboxes
+%% download toolboxes
 
 set(0,'DefaultFigureVisible','off')
 
