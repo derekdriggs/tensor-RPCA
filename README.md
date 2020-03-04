@@ -4,6 +4,8 @@ An implementation of robust principal component analysis for tensors.
 
 This code decomposes multi-dimensional datasets into the sum of a low-rank tensor and a sparse tensor, performing principal component analysis that is robust to sparsely distributed gross errors. See the [paper for details](https://arxiv.org/abs/1901.10991).
 
+![tensor-rpca-recovery](https://user-images.githubusercontent.com/10841845/75897128-f5e32780-5e2f-11ea-9257-c5d3e5d6bcdf.png)
+
 
 Citation
 ---------
