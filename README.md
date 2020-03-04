@@ -7,7 +7,7 @@ This code decomposes multi-dimensional datasets into the sum of a low-rank tenso
 
 Citation
 ---------
-bibtex (for Split-SPCP):
+If you use this code, please consider citing this work using the following bibtex entry (for tensor-RPCA):
 
 ```
 @misc{tensor-rpca2019,
